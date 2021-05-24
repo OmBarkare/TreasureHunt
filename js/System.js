@@ -30,6 +30,8 @@ class System{
             tint(255,visibility);
             imageMode(CENTER);
             image(bg2,width/2,height/2,width,height);
+            textSize(20);
+            text("The treasure is all yours!!",width/2,height/2);
             pop();
         }
     }
